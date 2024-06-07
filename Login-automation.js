@@ -12,7 +12,7 @@ describe('sample', () => {
             path: '/',
             capabilities: {
                 platformName: 'Android',
-                'appium:deviceName': '112243141G051943', 
+                'appium:deviceName': 'devicename', 
                 'appium:automationName': 'UiAutomator2',
                 'appium:app': 'C:/Users/ramch/OneDrive/Desktop/webdriverio-appium/app/android/appdemo.apk', 
             }
