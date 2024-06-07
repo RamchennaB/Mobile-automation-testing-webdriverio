@@ -34,8 +34,8 @@ describe('sample', () => {
             await skipButton.click();
 
             // Enter username and password
-            await (await driver.$("//android.widget.EditText[@content-desc='loginEmail']")).setValue("karthik@xorstack.com");
-            await (await driver.$("//android.widget.EditText[@content-desc='loginPassword']")).setValue("12345");
+            await (await driver.$("//android.widget.EditText[@content-desc='loginEmail']")).setValue("sample@email.com");
+            await (await driver.$("//android.widget.EditText[@content-desc='loginPassword']")).setValue("sample123");
 
             // Click the login button
             await (await driver.$("//android.widget.TextView[@text='Sign In']")).click();
